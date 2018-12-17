@@ -22,7 +22,7 @@ scenarios, GPUs can substantially increase inference throughput. TensorFlow
 Serving comes with a scheduler that groups individual inference requests into
 batches for joint execution on a GPU, with configurable latency controls.
 
-TensorFlow Serving has out-of-the-box support for TensorFlow models (naturally),
+TensorFlow Serving has out of the box support for TensorFlow models (naturally),
 but at its core it manages arbitrary versioned items (*servables*) with
 pass-through to their native APIs. In addition to trained TensorFlow models,
 servables can include other assets needed for inference such as embeddings,
